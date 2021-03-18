@@ -1,0 +1,7 @@
+工作目录 vs 暂存区
+git diff           <filename>                : working tree ---- stage(index)
+git diff <branch>  <filename>                : 当前分支的文件于另外一个分支的区别
+
+暂存区 vs git仓库
+git diff --cached <commit> <filename>        : stage ---- Git仓库上次commit
+
